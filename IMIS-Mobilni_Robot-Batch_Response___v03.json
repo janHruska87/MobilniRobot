@@ -1,0 +1,41 @@
+[
+    {
+        "batch-id": 999,
+        "demand-id": 123,
+        "article-nr": "N12345678",
+        "demand-state": 0,
+        "pack-id": "KLT3147",
+        "storage": 1,
+        "pack-quantity": 2,
+        "sequence-place-of-usage": 1,
+        "request-time": "YYYY-MM-DDThh:mm:ss:hh:mm",
+        "pick-time": "",
+        "delivery-time": ""
+    },
+    {
+        "batch-id": 999,
+        "demand-id": 125,
+        "article-nr": "N987654321",
+        "demand-state": 0,
+        "pack-id": "KLT3147",
+        "storage": 3,
+        "pack-quantity": 3,
+        "sequence-place-of-usage": 9,
+        "request-time": "YYYY-MM-DDThh:mm:ss:hh:mm",
+        "pick-time": "",
+        "delivery-time": ""
+    },
+    {
+        "batch-id": 199,
+        "demand-id": 123,
+        "article-nr": "SADSAD",
+        "demand-state": 1,
+        "pack-id": "DSAD",
+        "storage": 1,
+        "pack-quantity": 3,
+        "sequence-place-of-usage": 3,
+        "request-time": "2024-05-03T17:11:48",
+        "pick-time": "",
+        "delivery-time": ""
+    }
+]

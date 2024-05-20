@@ -10,7 +10,8 @@
         "sequence-place-of-usage": 1,
         "request-time": "YYYY-MM-DDThh:mm:ss:hh:mm",
         "pick-time": "",
-        "delivery-time": ""
+        "delivery-time": "",
+        "remaining-pack-quantity": 10
     },
     {
         "batch-id": 999,
@@ -23,7 +24,8 @@
         "sequence-place-of-usage": 9,
         "request-time": "YYYY-MM-DDThh:mm:ss:hh:mm",
         "pick-time": "",
-        "delivery-time": ""
+        "delivery-time": "",
+        "remaining-pack-quantity": 10
     },
     {
         "batch-id": 199,
@@ -36,6 +38,7 @@
         "sequence-place-of-usage": 3,
         "request-time": "2024-05-03T17:11:48",
         "pick-time": "",
-        "delivery-time": ""
+        "delivery-time": "",
+        "remaining-pack-quantity": 10
     }
 ]

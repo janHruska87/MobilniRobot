@@ -74,7 +74,9 @@ def add_entry():
         'sequence-place-of-usage': request.form['sequence-place-of-usage'],
         'request-time': datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
         'pick-time': request.form['pick-time'],
-        'delivery-time': request.form['delivery-time']
+        'delivery-time': request.form['delivery-time'],
+        'remaining-pack-quantity': request.form['remaining-pack-quantity']
+
     }
     data.append(entry)
     save_data(data)

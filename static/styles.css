@@ -23,10 +23,11 @@ table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
-    table-layout: fixed;
+    table-layout: auto;
 }
 
 table th, table td {
+    width: auto;
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;

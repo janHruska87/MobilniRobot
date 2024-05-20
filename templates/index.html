@@ -21,6 +21,7 @@
             <input type="datetime-local" name="request-time" placeholder="Request Time">
             <input type="datetime-local" name="pick-time" placeholder="Pick Time">
             <input type="datetime-local" name="delivery-time" placeholder="Delivery Time">
+            <input type="number" name="remaining-pack-quantity" placeholder="Remaining pack quantity">
             <button type="submit">Add Entry</button>
         </form>
     <H1>Obsah souboru</H1>
@@ -38,6 +39,7 @@
                     <th>Request Time</th>
                     <th>Pick Time</th>
                     <th>Delivery Time</th>
+                    <th>Remaining pack quantity</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -55,6 +57,7 @@
                     <td>{{ entry['request-time'] }}</td>
                     <td>{{ entry['pick-time'] }}</td>
                     <td>{{ entry['delivery-time'] }}</td>
+                    <td>{{ entry['remaining-pack-quantity'] }}</td>
                     <td><a href="/delete/{{ loop.index - 1 }}">Delete</a></td>
                 </tr>
                 {% endfor %}
